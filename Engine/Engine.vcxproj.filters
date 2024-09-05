@@ -4,6 +4,18 @@
     <Filter Include="Source">
       <UniqueIdentifier>{56EB95D1-428D-C0A7-2B48-D4FB178947F8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{6E95150F-DA4A-8E04-633F-88DBCFF38408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Interface">
+      <UniqueIdentifier>{B6F657C6-A2EF-7618-CB21-5C9DB7795624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Interface\ImGui">
+      <UniqueIdentifier>{601CE88E-4C16-11E1-3583-A7F1211C774D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility">
+      <UniqueIdentifier>{999F8AF9-856D-7EFF-6E01-EF255A6E5A64}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Vendor">
       <UniqueIdentifier>{935FDCD7-7F01-07AE-68BC-1A0254FD8DFE}</UniqueIdentifier>
     </Filter>
@@ -12,16 +24,47 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Engine.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Interface\ImGui\imgui_stdlib.h">
+      <Filter>Source\Interface\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\File.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Log.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Math.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Text.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\nfpch.h">
+      <Filter>Source</Filter>
+    </ClInclude>
     <ClInclude Include="Vendor\stb_image\stb_image.h">
       <Filter>Vendor\stb_image</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Core\Project.hpp" />
+    <ClInclude Include="Source\Core\Project.h" />
+    <ClInclude Include="Source\Core\Window.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Main.cpp">
+    <ClCompile Include="Source\Core\Project.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Interface\ImGui\imgui_stdlib.cpp">
+      <Filter>Source\Interface\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\nfpch.cpp">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="Vendor\stb_image\stb_image.cpp">
       <Filter>Vendor\stb_image</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Core\Window.cpp" />
   </ItemGroup>
 </Project>

@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Dev\\NiftyEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF95D339-6C76-445F-A06D-A73FF16C1B66}|Engine\\Engine.vcxproj|C:\\Dev\\NiftyEngine\\Engine\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FF95D339-6C76-445F-A06D-A73FF16C1B66}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5C2CF323-C80B-72BF-D123-FD953D82D820}|Project\\Project.vcxproj|C:\\Dev\\NiftyEngine\\Project\\Source\\ProjectControl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C2CF323-C80B-72BF-D123-FD953D82D820}|Project\\Project.vcxproj|solutionrelative:Project\\Source\\ProjectControl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Dev\\NiftyEngine\\Engine\\Source\\Core\\Project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Core\\Project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\dev\\NiftyEngine\\Engine\\Source\\Core\\Project.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Core\\Project.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Dev\\NiftyEngine\\Engine\\Source\\Core\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Core\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|C:\\Dev\\NiftyEngine\\Engine\\Source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Window.h",
+              "DocumentMoniker": "C:\\Dev\\NiftyEngine\\Engine\\Source\\Core\\Window.h",
+              "RelativeDocumentMoniker": "Engine\\Source\\Core\\Window.h",
+              "ToolTip": "C:\\Dev\\NiftyEngine\\Engine\\Source\\Core\\Window.h",
+              "RelativeToolTip": "Engine\\Source\\Core\\Window.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-05T18:06:52.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Dev\\NiftyEngine\\Engine\\Source\\Main.cpp",
-              "RelativeDocumentMoniker": "Engine\\Source\\Main.cpp",
-              "ToolTip": "C:\\Dev\\NiftyEngine\\Engine\\Source\\Main.cpp",
-              "RelativeToolTip": "Engine\\Source\\Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ProjectControl.cpp",
+              "DocumentMoniker": "C:\\Dev\\NiftyEngine\\Project\\Source\\ProjectControl.cpp",
+              "RelativeDocumentMoniker": "Project\\Source\\ProjectControl.cpp",
+              "ToolTip": "C:\\Dev\\NiftyEngine\\Project\\Source\\ProjectControl.cpp",
+              "RelativeToolTip": "Project\\Source\\ProjectControl.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-04T14:36:26.484Z",
+              "WhenOpened": "2024-09-05T17:00:40.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project.cpp",
+              "DocumentMoniker": "C:\\Dev\\NiftyEngine\\Engine\\Source\\Core\\Project.cpp",
+              "RelativeDocumentMoniker": "Engine\\Source\\Core\\Project.cpp",
+              "ToolTip": "C:\\Dev\\NiftyEngine\\Engine\\Source\\Core\\Project.cpp",
+              "RelativeToolTip": "Engine\\Source\\Core\\Project.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-04T19:19:46.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Project.h",
+              "DocumentMoniker": "C:\\dev\\NiftyEngine\\Engine\\Source\\Core\\Project.h",
+              "RelativeDocumentMoniker": "Engine\\Source\\Core\\Project.h",
+              "ToolTip": "C:\\dev\\NiftyEngine\\Engine\\Source\\Core\\Project.h",
+              "RelativeToolTip": "Engine\\Source\\Core\\Project.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-04T19:19:39.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Engine.h",
+              "DocumentMoniker": "C:\\Dev\\NiftyEngine\\Engine\\Source\\Engine.h",
+              "RelativeDocumentMoniker": "Engine\\Source\\Engine.h",
+              "ToolTip": "C:\\Dev\\NiftyEngine\\Engine\\Source\\Engine.h",
+              "RelativeToolTip": "Engine\\Source\\Engine.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-04T19:16:37.453Z",
               "EditorCaption": ""
             }
           ]

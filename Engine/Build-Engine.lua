@@ -10,8 +10,9 @@ project "Engine"
 
     files {
         "Source/**.h",
-        "Source/**.hpp",
         "Source/**.cpp",
+        "Source/**.hpp",
+        "Source/**.c",
 
         "%{IncludeDir.STB_IMAGE}/**.h",
         "%{IncludeDir.STB_IMAGE}/**.cpp"

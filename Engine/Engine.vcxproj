@@ -150,10 +150,25 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Core\Project.h" />
+    <ClInclude Include="Source\Core\Project.hpp" />
+    <ClInclude Include="Source\Core\Window.h" />
+    <ClInclude Include="Source\Engine.h" />
+    <ClInclude Include="Source\Interface\ImGui\imgui_stdlib.h" />
+    <ClInclude Include="Source\Utility\File.h" />
+    <ClInclude Include="Source\Utility\Log.h" />
+    <ClInclude Include="Source\Utility\Math.h" />
+    <ClInclude Include="Source\Utility\Text.h" />
+    <ClInclude Include="Source\nfpch.h" />
     <ClInclude Include="Vendor\stb_image\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Core\Project.cpp" />
+    <ClCompile Include="Source\Core\Window.cpp" />
+    <ClCompile Include="Source\Interface\ImGui\imgui_stdlib.cpp" />
+    <ClCompile Include="Source\nfpch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="Vendor\stb_image\stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>

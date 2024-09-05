@@ -5,11 +5,12 @@ project "Project"
     targetdir "bin/%{cfg.buildcfg}"
     staticruntime "on"
 
-    files { 
-        "Source/**.h", 
-        "Source/**.hpp", 
+    files {
+        "Source/**.h",
         "Source/**.cpp",
-        
+        "Source/**.hpp",
+        "Source/**.c",
+
         "Assets/**.vert",
         "Assets/**.frag",
         "Assets/**.geom",
@@ -28,7 +29,15 @@ project "Project"
         "Assets",
 
         -- Include Core
-        "../Engine/Source"
+        "../Engine/Source",
+
+        "%{IncludeDir.GLAD}",
+        "%{IncludeDir.GLFW}",
+        "%{IncludeDir.IMGUI}",
+        "%{IncludeDir.STB_IMAGE}",
+        "%{IncludeDir.ASSIMP}",
+        "%{IncludeDir.GLM}",
+        "%{IncludeDir.IMGUIZMO}"
     }
 
     links {
@@ -40,8 +49,8 @@ project "Project"
 
     filter "system:windows"
         systemversion "latest"
-        
-        defines { 
+
+        defines {
             "NF_PLATFORM_WINDOWS",
             "_CRT_SECURE_NO_WARNINGS"
         }
