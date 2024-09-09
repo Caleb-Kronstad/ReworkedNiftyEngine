@@ -1,6 +1,15 @@
 #pragma once
 
-#include "Window.h"
+#include "Input/Input.h"
+#include "Input/InputCodes.h"
+#include "Input/InputTypes.h"
+
+#include "Interface/EngineUI.h"
+
+#include "Core/Window.h"
+#include "Core/Node.h"
+
+#include "Renderer/Renderer.h"
 
 namespace Nifty
 {
@@ -11,6 +20,8 @@ namespace Nifty
 		virtual ~Project();
 
 		void Run();
+		void PushNode(Node* node);
+		void PopNode(Node* node);
 
 		// Getters
 		static Project& Get() { return *s_Instance; }
@@ -19,7 +30,7 @@ namespace Nifty
 		std::string GetProjectName() const { return m_ProjectName; }
 
 		// Callback functions
-		/*void keycallback(GLFWwindow* window, int key, int scancode, int action, int mods);
+		void keycallback(GLFWwindow* window, int key, int scancode, int action, int mods);
 		void mousebuttoncallback(GLFWwindow* window, int button, int action, int mods);
 		void mousecallback(GLFWwindow* window, double xposin, double yposin);
 		void scrollcallback(GLFWwindow* window, double xoffset, double yoffset);
@@ -49,7 +60,7 @@ namespace Nifty
 		{
 			if (s_Instance)
 				s_Instance->framebuffersizecallback(window, width, height);
-		}*/
+		}
 
 	private:
 		void InitializeOpenGL();
@@ -60,12 +71,20 @@ namespace Nifty
 
 	private:
 		Window m_Window;
+		WindowProperties m_ViewportProps;
+		float viewportSizeAdjust = 0.75;
+
+		Renderer* m_Renderer;
+		EngineUI* m_EngineUI;
+		
 		unsigned int m_AntiAliasingLevel = 4;
 		bool m_EngineRunning = true;
 		bool m_ProjectRunning = false;
 		float lastFrameTime = 0.0f;
 
 		std::string m_ProjectName;
+		
+		std::vector<Node*> m_Nodes;
 
 		static Project* s_Instance;
 	};

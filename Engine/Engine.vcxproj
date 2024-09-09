@@ -150,11 +150,17 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Core\Node.h" />
     <ClInclude Include="Source\Core\Project.h" />
-    <ClInclude Include="Source\Core\Project.hpp" />
     <ClInclude Include="Source\Core\Window.h" />
     <ClInclude Include="Source\Engine.h" />
+    <ClInclude Include="Source\Input\Input.h" />
+    <ClInclude Include="Source\Input\InputCodes.h" />
+    <ClInclude Include="Source\Input\InputTypes.h" />
+    <ClInclude Include="Source\Interface\EngineUI.h" />
     <ClInclude Include="Source\Interface\ImGui\imgui_stdlib.h" />
+    <ClInclude Include="Source\Renderer\Renderer.h" />
+    <ClInclude Include="Source\Renderer\Shader.h" />
     <ClInclude Include="Source\Utility\File.h" />
     <ClInclude Include="Source\Utility\Log.h" />
     <ClInclude Include="Source\Utility\Math.h" />
@@ -163,9 +169,17 @@
     <ClInclude Include="Vendor\stb_image\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Core\Node.cpp" />
     <ClCompile Include="Source\Core\Project.cpp" />
     <ClCompile Include="Source\Core\Window.cpp" />
+    <ClCompile Include="Source\Interface\EngineUI.cpp" />
     <ClCompile Include="Source\Interface\ImGui\imgui_stdlib.cpp" />
+    <ClCompile Include="Source\Renderer\Renderer.cpp" />
+    <ClCompile Include="Source\Renderer\Shader.cpp" />
+    <ClCompile Include="Source\Utility\File.cpp" />
+    <ClCompile Include="Source\Utility\Log.cpp" />
+    <ClCompile Include="Source\Utility\Math.cpp" />
+    <ClCompile Include="Source\Utility\Text.cpp" />
     <ClCompile Include="Source\nfpch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>

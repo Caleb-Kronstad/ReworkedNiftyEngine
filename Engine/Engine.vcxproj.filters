@@ -7,6 +7,9 @@
     <Filter Include="Source\Core">
       <UniqueIdentifier>{6E95150F-DA4A-8E04-633F-88DBCFF38408}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{D54334F2-C1A6-C396-6A2C-FC4C566E8F19}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source\Interface">
       <UniqueIdentifier>{B6F657C6-A2EF-7618-CB21-5C9DB7795624}</UniqueIdentifier>
     </Filter>
@@ -24,8 +27,26 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Core\Node.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Project.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Window.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
     <ClInclude Include="Source\Engine.h">
       <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Input.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\InputCodes.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\InputTypes.h">
+      <Filter>Source\Input</Filter>
     </ClInclude>
     <ClInclude Include="Source\Interface\ImGui\imgui_stdlib.h">
       <Filter>Source\Interface\ImGui</Filter>
@@ -48,16 +69,34 @@
     <ClInclude Include="Vendor\stb_image\stb_image.h">
       <Filter>Vendor\stb_image</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Core\Project.hpp" />
-    <ClInclude Include="Source\Core\Project.h" />
-    <ClInclude Include="Source\Core\Window.h" />
+    <ClInclude Include="Source\Renderer\Renderer.h" />
+    <ClInclude Include="Source\Renderer\Shader.h" />
+    <ClInclude Include="Source\Interface\EngineUI.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Core\Node.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
     <ClCompile Include="Source\Core\Project.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Window.cpp">
       <Filter>Source\Core</Filter>
     </ClCompile>
     <ClCompile Include="Source\Interface\ImGui\imgui_stdlib.cpp">
       <Filter>Source\Interface\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\File.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Log.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Math.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Text.cpp">
+      <Filter>Source\Utility</Filter>
     </ClCompile>
     <ClCompile Include="Source\nfpch.cpp">
       <Filter>Source</Filter>
@@ -65,6 +104,8 @@
     <ClCompile Include="Vendor\stb_image\stb_image.cpp">
       <Filter>Vendor\stb_image</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Core\Window.cpp" />
+    <ClCompile Include="Source\Renderer\Renderer.cpp" />
+    <ClCompile Include="Source\Renderer\Shader.cpp" />
+    <ClCompile Include="Source\Interface\EngineUI.cpp" />
   </ItemGroup>
 </Project>

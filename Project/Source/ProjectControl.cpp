@@ -1,17 +1,17 @@
-#include "nfpch.h"
 #include "Engine.h"
 
-class ProjectInstance : public Nifty::Project
+#include "TestNode.h"
+
+class ProjectInstance : public Project
 {
 public:
-	ProjectInstance() : Nifty::Project()
+	ProjectInstance() : Project()
 	{
-
+		PushNode(new TestNode());
 	}
 
 	~ProjectInstance()
 	{
-
 	}
 
 private:

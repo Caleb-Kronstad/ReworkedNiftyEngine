@@ -141,7 +141,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Source\TestNode.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="Source\ProjectControl.cpp" />
+    <ClCompile Include="Source\TestNode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Engine\Engine.vcxproj">
